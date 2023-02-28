@@ -20,25 +20,7 @@ namespace windos_form_app_learn
           
         }
 
-       
-
-        private void label1_MouseMove(object sender, MouseEventArgs e)
-        {
-           
-
-        }
-
-        private void label2_MouseMove(object sender, MouseEventArgs e)
-        {
-            
-        }
-
         private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
         {
 
         }
@@ -47,11 +29,6 @@ namespace windos_form_app_learn
         {
             label1.Text =Convert.ToString("x= "+ e.X);
             label2.Text =Convert.ToString( "y= "+e.Y);
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -142,19 +119,5 @@ namespace windos_form_app_learn
 
         }
 
-        private void start_MouseHover(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void pause_MouseHover(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void time_labil_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
